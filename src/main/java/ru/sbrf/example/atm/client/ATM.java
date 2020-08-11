@@ -9,4 +9,10 @@ public class ATM {
         this.bank = bank;
     }
 
+    //пин, номер счета, имя, номер карты
+    public long getBalance(long clientNumber, String accountNumber){
+
+        return  bank.getBalance(clientNumber,accountNumber);
+    }
+
 }
